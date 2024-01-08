@@ -1,4 +1,48 @@
-*{
+* {
     margin: 0;
     padding: 0;
+}
+
+/* Nav releted style */
+
+nav {
+    display: flex;
+    font-family: sans-serif;
+    font-size: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 220px;
+}
+.text-head{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.text-primary {
+    font-weight: 800;
+    color: #FD6E0A;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    border-style: none;
+    background: #FD6E0A;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-left: 50px;
 }
